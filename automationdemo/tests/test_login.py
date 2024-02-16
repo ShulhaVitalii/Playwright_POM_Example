@@ -44,4 +44,5 @@ def test_success_logout(setup_teardown) -> None:
     plp.do_logout()
     expect(lp.login_button).to_be_visible()
 
-
+def test():
+    pass
