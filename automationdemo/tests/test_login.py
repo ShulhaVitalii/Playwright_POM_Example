@@ -43,6 +43,3 @@ def test_success_logout(setup_teardown) -> None:
     plp = lp.do_login("standard_user", "secret_sauce")
     plp.do_logout()
     expect(lp.login_button).to_be_visible()
-
-def test():
-    pass
